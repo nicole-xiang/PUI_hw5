@@ -5,12 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
     <title>Nature.io</title>
   </head>
 
   <body>
-    
+    <!-- nav bar -->
+    <div class="nav">
+      <div id="nav_container">
+        <h3 class = logo>Nature.io</h3>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="visit.html">Visit</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a class="login" href="#">Login</a>
+      </div>
+    </div>
+
+    <!-- main section -->
+    <div class = "main">
+      <h1 class = "title">Welcome to Nature.io</h1>
+      <!-- forms -->
+      <form>
+        <h2>Log In</h2>
+        <div class="container_form">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <br>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <br>
+          <button type="submit">Login</button>
+          <a class="forgot" href = "#">Forgot password?</a>
+        </div>
+      </form>
+
+      <form>
+        <h2>Sign Up</h2>
+        <div class="container_form">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <br>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <br>
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <ul class="footer-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <p> Copyright © 2022 Nature.io</p>
+  </footer>
+      
   </body>
 </html>
