@@ -84,7 +84,9 @@ p{
 /* home */
 .title {
     text-align: center;
-    margin:3% auto;
+    margin:0 auto;
+    padding-top: 1%;
+
 }
 form {
     margin:2% auto;
@@ -98,6 +100,8 @@ form h2{
 }
 /* referenced https://www.w3schools.com/howto/howto_css_login_form.asp  */
 input[type=text], input[type=password] {
+    font-family: 'Lato', sans-serif;
+    color:rgb(56, 54, 54);
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -297,6 +301,26 @@ input[type=radio],label[for=one_time], label[for=subscribe] {
     color:black;
     margin-top: 5%;
     margin-left: 45%;
+}
+/* contact form */
+.contact{
+    width: 100%
+}
+.contact input[type=text]{
+    width:80%
+}
+.contact_img{
+    width:65%;
+}
+textarea{
+    font-family: 'Lato', sans-serif;
+    color:rgb(56, 54, 54);
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
 }
 /* footer */
 footer {
