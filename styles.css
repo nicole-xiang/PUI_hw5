@@ -322,6 +322,54 @@ textarea{
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+/* visit us */
+.visit{
+    margin:3% auto;
+}
+.store_map{
+    padding:0 3%;
+}
+.store_map a{
+    text-decoration: none;
+    color:black;
+    background:#FFBE0B;
+    padding:0.5% 1%;
+    border-radius: 20px;
+}
+.visit_subtitle{
+    margin:0 auto;
+    text-align: center;
+}
+.v_left_column {
+    width: 50%;
+    position: relative;
+}
+
+.v_left_column img {
+    margin:0 40%;
+}
+
+.v_right_column {
+    text-align: center;
+    width: 50%;
+    margin:3% 10%;
+    /* margin-top: 60px; */
+}
+.v_right_column .descrip {
+
+    padding-bottom: 5%;
+    border-bottom:0.5px solid black; 
+}
+.a_left_col {
+    width: 50%;
+}
+.a_right_col {
+    width: 50%;
+}
+.a_left_col a{
+    text-decoration: none;
+    color:black;
+}
 /* footer */
 footer {
     font-family: 'Poppins', sans-serif;
