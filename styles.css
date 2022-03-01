@@ -36,10 +36,11 @@ p{
 }
 
 #nav_container {
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
     height: 70px;
 }
+
 .nav {
     background-color: #FFBE0B;
     text-align:center;
@@ -209,9 +210,9 @@ div.more_product {
 }
 .column {
     float: left;
-    /* width: 33.33%; */
     padding: 10px;
   }
+
 .flavors img:hover{
     opacity: 0.8;
     cursor: pointer;
@@ -227,6 +228,7 @@ div.more_product {
     width:100%;
     margin-bottom: 0;
 }
+
 
 select,input[type=number] {
     width: 20%;
@@ -375,7 +377,7 @@ footer {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 17px;
-    color:#FFE5D9;
+    color:#ffffff;
     background-color:black;
     padding:50px;
     /* padding-bottom: 2%; */
